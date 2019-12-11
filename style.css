@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    height: 1000px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* .riga-quadratini {
+    width: 810px;
+    height: 100px;
+    margin: 0 auto;
+} */
+
+.quadratino {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 300%;
+    text-align: center;
+    line-height: 100px;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: lightgreen;
+}
